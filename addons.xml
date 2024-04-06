@@ -26,7 +26,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.dradis" version="4.04.02" name="Dradis" provider-name="kodifitzwell">
+<addon id="plugin.video.dradis" version="4.04.04" name="Dradis" provider-name="kodifitzwell">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
@@ -35,21 +35,20 @@
 	<extension point="xbmc.python.pluginsource" library="dradis.py">
 		<provides>video</provides>
 	</extension>
-	<extension point="xbmc.service" library="service.py" start="startup" />
-	<extension point="xbmc.python.module" library="resources/lib/" />
+	<extension point="xbmc.service" library="service.py" />
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
 		<reuselanguageinvoker>true</reuselanguageinvoker>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
 		<assets><icon>icon.png</icon><fanart>fanart.jpg</fanart></assets>
-		<summary lang="en">[COLOR red]Dradis[/COLOR] - We do not host any of the contents streamed</summary>
-		<description lang="en">[COLOR red][B]Dradis[/B][/COLOR][CR]The author does not host any of the content in this addon and takes no responsibility for content found.[CR]This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.</description>
-		<disclaimer lang="en">The author of this addon does not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
-		<news>For latest changes see Changelog within add-on.</news>
+		<summary>[COLOR red]Dradis[/COLOR] is a tracking technology used in the re-imagined Battlestar Galactica miniseries and television show, as well as related spinoff media.[CR]</summary>
+		<description lang="en">This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</description>
+		<disclaimer lang="en">The author of this addon does not host any of the content which is found and has no affiliation with any of the content providers.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</disclaimer>
+		<news>INFO: For latest changes see Changelog within add-on.</news>
 	</extension>
 </addon>
 
-<addon id="plugin.video.pov" version="4.04.02" name="POV" provider-name="kodifitzwell">
+<addon id="plugin.video.pov" version="4.04.04" name="POV" provider-name="kodifitzwell">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
@@ -58,7 +57,16 @@
         <provides>video</provides>
     </extension>
     <extension point="xbmc.service" library="resources/lib/service.py" />
-    <extension point="xbmc.python.module" library="resources/lib/" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <assets><icon>icon.png</icon><fanart>fanart.png</fanart></assets>
+        <summary>The position from which something or someone is observed.[CR]</summary>
+        <description lang="en">This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</description>
+        <disclaimer lang="en">The author of this addon does not host any of the content which is found and has no affiliation with any of the content providers.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</disclaimer>
+        <news>INFO: For latest changes see Changelog within add-on.</news>
+    </extension>
     <extension point="kodi.context.item">
         <menu id="kodi.core.main">
             <item library="resources/lib/contextmenu.py" args="refresh_widgets">
@@ -106,16 +114,6 @@
                 <visible>String.IsEqual(ListItem.Property(pov_widget),true)</visible>
             </item>
         </menu>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <reuselanguageinvoker>true</reuselanguageinvoker>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-        <assets><icon>icon.png</icon><fanart>fanart.png</fanart></assets>
-        <summary>The position from which something or someone is observed.[CR]</summary>
-        <description lang="en">The author of this addon does not host any of the content which is found and has no affiliation with any of the content providers</description>
-        <disclaimer lang="en">This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
-        <news>INFO: For latest changes see Changelog within Tools of add-on.[CR][CR]This addon searches websites for content.[CR]The author is not responsible for the use of this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</news>
     </extension>
 </addon>
 
