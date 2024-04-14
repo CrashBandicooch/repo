@@ -138,7 +138,7 @@
 </addon>
 
 
-<addon id="plugin.video.onemoar" name="OneMoar" provider-name="kodifitzwell" version="4.04.12">
+<addon id="plugin.video.onemoar" name="OneMoar" provider-name="kodifitzwell" version="4.04.13">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.requests"/>
