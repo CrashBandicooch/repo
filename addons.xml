@@ -26,7 +26,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.dradis" version="4.04.14" name="Dradis" provider-name="kodifitzwell">
+<addon id="plugin.video.dradis" version="4.04.15" name="Dradis" provider-name="kodifitzwell">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
@@ -48,7 +48,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.pov" version="4.04.11" name="POV" provider-name="kodifitzwell">
+<addon id="plugin.video.pov" version="4.04.15" name="POV" provider-name="kodifitzwell">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
@@ -138,7 +138,7 @@
 </addon>
 
 
-<addon id="plugin.video.onemoar" name="OneMoar" provider-name="kodifitzwell" version="4.04.14">
+<addon id="plugin.video.onemoar" name="OneMoar" provider-name="kodifitzwell" version="4.04.15">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.requests"/>
@@ -303,7 +303,7 @@
 	<extension point="xbmc.python.module" library="resources/lib/"/>
 	<extension point="xbmc.addon.metadata">
 		<reuselanguageinvoker>true</reuselanguageinvoker>
-		<summary lang="en">[COLOR green]OneMoar[/COLOR] - [I]"Just one more episode"[/I][CR]</summary>
+		<summary lang="en">[COLOR FF37B6FF]OneMoar[/COLOR] - [I]"Just one more episode"[/I][CR]</summary>
 		<description lang="en">[B]OneMoar[/B][CR]We do not host any of the contents streamed. This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR]The author does not host any of the content in this addon and takes no responsibility for content found.</description>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
@@ -314,7 +314,8 @@
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
-			<screenshot>resources/screenshots/screenshot001.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot001.png</screenshot>
+			<screenshot>resources/screenshots/screenshot002.jpg</screenshot>
 		</assets>
 		<news />
 	</extension>
