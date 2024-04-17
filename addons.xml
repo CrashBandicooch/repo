@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="plugin.video.affenity" name="afFENity" provider-name="kodifitzwell" version="1.0.02b">
+<addon id="plugin.video.affenity" name="afFENity" provider-name="kodifitzwell" version="1.0.02c">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.19.1"/>
@@ -138,7 +138,7 @@
 </addon>
 
 
-<addon id="plugin.video.onemoar" name="OneMoar" provider-name="kodifitzwell" version="4.04.15">
+<addon id="plugin.video.onemoar" name="OneMoar" provider-name="kodifitzwell" version="4.04.17">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.requests"/>
