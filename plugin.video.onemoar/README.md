@@ -5,6 +5,8 @@ use any code, just please give a little credit.
 peace pooks. ✌️
 
 - maybe MOAR to come...
+- Exorcise the demons.
+- Tweak for colorpicker to avoid carrying 527 png images with addon.  Bless whoever organized the color array values.
 - Enable "Developer mode" to change the background.  Return to the settings category and select "Defaults" to clear it if needed.
 - "Prefer TMDB artwork" setting now includes TMDB logo art, which is only slightly faster than Fanart.tv.
 - "Flatten TV seasons" setting now includes "One Season", when only one season available episodes will list without season list.
