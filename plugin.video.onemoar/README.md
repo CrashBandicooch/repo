@@ -6,6 +6,7 @@ peace pooks. ✌️
 
 - maybe MOAR to come...
 - Exorcise the demons.
+- Rewrite of "Icon Only/Hidden" progress dialog.
 - Tweak for colorpicker to avoid carrying 527 png images with addon.  Bless whoever organized the color array values.
 - Enable "Developer mode" to change the background.  Return to the settings category and select "Defaults" to clear it if needed.
 - "Prefer TMDB artwork" setting now includes TMDB logo art, which is only slightly faster than Fanart.tv.
