@@ -26,7 +26,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.dradis" version="4.04.20" name="Dradis" provider-name="kodifitzwell">
+<addon id="plugin.video.dradis" version="4.04.22" name="Dradis" provider-name="kodifitzwell">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
@@ -48,7 +48,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.pov" version="4.04.20" name="POV" provider-name="kodifitzwell">
+<addon id="plugin.video.pov" version="4.04.22" name="POV" provider-name="kodifitzwell">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
